@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/garciale24/PazaakPlayable/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/garciale24/PazaakPlayable/static/js/main.58d481b7.chunk.js",
-    "main.js.map": "/garciale24/PazaakPlayable/static/js/main.58d481b7.chunk.js.map",
-    "runtime-main.js": "/garciale24/PazaakPlayable/static/js/runtime-main.740be8e6.js",
-    "runtime-main.js.map": "/garciale24/PazaakPlayable/static/js/runtime-main.740be8e6.js.map",
-    "static/js/2.0c3b4bc4.chunk.js": "/garciale24/PazaakPlayable/static/js/2.0c3b4bc4.chunk.js",
-    "static/js/2.0c3b4bc4.chunk.js.map": "/garciale24/PazaakPlayable/static/js/2.0c3b4bc4.chunk.js.map",
-    "static/js/3.64d90afc.chunk.js": "/garciale24/PazaakPlayable/static/js/3.64d90afc.chunk.js",
-    "static/js/3.64d90afc.chunk.js.map": "/garciale24/PazaakPlayable/static/js/3.64d90afc.chunk.js.map",
+    "main.js": "/garciale24/PazaakPlayable/static/js/main.6bc689e0.chunk.js",
+    "main.js.map": "/garciale24/PazaakPlayable/static/js/main.6bc689e0.chunk.js.map",
+    "runtime-main.js": "/garciale24/PazaakPlayable/static/js/runtime-main.1d7df41c.js",
+    "runtime-main.js.map": "/garciale24/PazaakPlayable/static/js/runtime-main.1d7df41c.js.map",
+    "static/js/2.8833cd6e.chunk.js": "/garciale24/PazaakPlayable/static/js/2.8833cd6e.chunk.js",
+    "static/js/2.8833cd6e.chunk.js.map": "/garciale24/PazaakPlayable/static/js/2.8833cd6e.chunk.js.map",
+    "static/js/3.ff0311e9.chunk.js": "/garciale24/PazaakPlayable/static/js/3.ff0311e9.chunk.js",
+    "static/js/3.ff0311e9.chunk.js.map": "/garciale24/PazaakPlayable/static/js/3.ff0311e9.chunk.js.map",
     "index.html": "/garciale24/PazaakPlayable/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/garciale24/PazaakPlayable/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.0c3b4bc4.chunk.js.LICENSE.txt": "/garciale24/PazaakPlayable/static/js/2.0c3b4bc4.chunk.js.LICENSE.txt",
+    "static/js/2.8833cd6e.chunk.js.LICENSE.txt": "/garciale24/PazaakPlayable/static/js/2.8833cd6e.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/garciale24/PazaakPlayable/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.740be8e6.js",
-    "static/js/2.0c3b4bc4.chunk.js",
+    "static/js/runtime-main.1d7df41c.js",
+    "static/js/2.8833cd6e.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.58d481b7.chunk.js"
+    "static/js/main.6bc689e0.chunk.js"
   ]
 }
