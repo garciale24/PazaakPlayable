@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+  <iframe src="https://trinket.io/embed/pygame/f9650decb4?outputOnly=true" width="2000%" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
 
@@ -20,7 +22,6 @@ function App() {
         </a>
       </header>
     </div>
-<iframe src="https://trinket.io/embed/pygame/f9650decb4?outputOnly=true" width="2000" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
   );
 }
