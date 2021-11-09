@@ -10,10 +10,10 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
 
         </p>
-        <p>
+       
 
 <iframe src="https://trinket.io/embed/pygame/f9650decb4?outputOnly=true" width="2000" height="1000" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
