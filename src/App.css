@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+#my{
+  zoom: 150%;
+  }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +38,74 @@
     transform: rotate(360deg);
   }
 }
+.wrapper{
+  position:relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.hidelogo{
+  position: absolute;
+  width: 800px;
+  height: 150px;
+  background: #282c34;
+  right: 0px;
+  bottom: 0px;
+  z-index:999;
+  display: block;
+  color: #fff;
+}
+
+.hidelogo2{
+  position: absolute;
+  width: 208px;
+  height: 405px;
+  background: #282c34;
+  right: 0px;
+  bottom: 0px;
+  z-index:999;
+  display: block;
+  color: #fff;
+}
+
+
+.hidelogo3{
+  position: absolute;
+  width: 850px;
+  height: 405px;
+  background: #282c34;
+  right: 676px;
+  bottom: 0px;
+  z-index:999;
+  display: block;
+  color: #fff;
+}
+.hidelogo4{
+  position: absolute;
+  width: 596px;
+  height: 30px;
+  background: #282c34;
+  right: 0px;
+  bottom: 378px;
+  z-index:999;
+  display: block;
+  color: #fff;
+}
+
+.hidelogo5{
+  position: absolute;
+  width: 850px;
+  height: 370px;
+  background: #282c34;
+  right: 610px;
+  bottom: 0px;
+  z-index:999;
+  display: block;
+  color: #fff;
+}
+.iframe{
+  width: 800px;
+  height: 400px;
+  border: 0;
+}
+
