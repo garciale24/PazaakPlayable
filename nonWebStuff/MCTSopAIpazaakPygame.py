@@ -290,6 +290,7 @@ def main() -> None:
     pazaakGame.createSideDeck(pazaakGame.P2sideCards)
     pazaakGame.mctsVersion = "Open Loop"
 
+
     draw_window(pazaakGame)
     while (pazaakGame.P1gamesWon < 3) and (pazaakGame.P2gamesWon < 3):
         # function to play 1 game of pazaak
