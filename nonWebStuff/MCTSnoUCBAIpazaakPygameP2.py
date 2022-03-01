@@ -201,6 +201,7 @@ def main() -> None:
 
         # function to play 1 game of pazaak
         rounds_checker, rounds_flag, playerTurn, pazaakGame = play1game(pazaakGame, playerTurn, rounds_checker, rounds_flag)
+        wait_timer(1)
     draw_window(pazaakGame)
 
     if pazaakGame.P1gamesWon == 3:
