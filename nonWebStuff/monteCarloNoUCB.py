@@ -615,17 +615,19 @@ def simulation(rent: RootKids) -> int:
             #print("nextCard:", nextCard)
             if tempRent.state.player == 1 and tempRent.state.P1stillPlaying == 1:
                 tempRent.state.P1setVal += nextCard
-            if smartStop(tempRent.state) == 0:
-                #rent.state.P1stillPlaying = 0
-                temp = tempRent.state.whoWon()
-                break
+            if rent.state.player == 1:
+                if smartStop(tempRent.state) == 0:
+                    #rent.state.P1stillPlaying = 0
+                    temp = tempRent.state.whoWon()
+                    break
 
             if tempRent.state.player == 2 and tempRent.state.P2stillPlaying == 1:
                 tempRent.state.P2setVal += nextCard
-            if smartStop(tempRent.state) == 0:
-                #rent.state.P2stillPlaying = 0
-                temp = tempRent.state.whoWon()
-                break
+            if rent.state.player == 2:
+                if smartStop(tempRent.state) == 0:
+                    #rent.state.P2stillPlaying = 0
+                    temp = tempRent.state.whoWon()
+                    break
             #print("simulation iterations", tempRent.state.P1setVal, tempRent.state.P2setVal)
         #print("INFO2:",tempRent.state.P1setVal, tempRent.state.P2setVal, tempRent.state.P1stillPlaying, tempRent.state.P2stillPlaying, temp)
 

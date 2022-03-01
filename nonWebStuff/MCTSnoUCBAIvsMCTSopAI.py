@@ -4,6 +4,7 @@ import os
 import time
 from my_pazaak import *
 from monteCarloOpenLoop import *
+from monteCarloNoUCB import *
 
 #from draw_stuff import *
 from typing import List
@@ -99,7 +100,7 @@ def player2_AI(pazaakGame: PazaakState, nextCard: int) -> None:
 def player1_AI(pazaakGame: PazaakState, nextCard: int) -> None:
     if pazaakGame.P1setVal > 10:
 
-        pazaakGame = monte_carlo_algorithmOpenLoop(pazaakGame)
+        pazaakGame = monte_carlo_algorithmNoUCB(pazaakGame)
     return pazaakGame
     '''
     i: int = 0

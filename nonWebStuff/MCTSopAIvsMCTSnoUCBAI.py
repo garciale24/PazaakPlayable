@@ -3,6 +3,7 @@ from typing import Any, Tuple
 import os
 import time
 from my_pazaak import *
+from monteCarloNoUCB import *
 from monteCarloOpenLoop import *
 
 #from draw_stuff import *
@@ -89,7 +90,7 @@ def player2_AI(pazaakGame: PazaakState, nextCard: int) -> None:
     '''
     if pazaakGame.P2setVal > 10:
 
-        pazaakGame = monte_carlo_algorithmOpenLoop(pazaakGame)
+        pazaakGame = monte_carlo_algorithmNoUCB(pazaakGame)
     #print("2|", pazaakGame.P1setVal, pazaakGame.P2setVal)
 
     #exit(0)

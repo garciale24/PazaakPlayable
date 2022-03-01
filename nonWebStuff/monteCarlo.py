@@ -610,17 +610,19 @@ def simulation(rent: RootKids) -> int:
             #print("nextCard:", nextCard)
             if tempRent.state.player == 1 and tempRent.state.P1stillPlaying == 1:
                 tempRent.state.P1setVal += nextCard
-            if smartStop(tempRent.state) == 0:
-                #rent.state.P1stillPlaying = 0
-                temp = tempRent.state.whoWon()
-                break
+            if rent.state.player == 1:
+                if smartStop(tempRent.state) == 0:
+                    #rent.state.P1stillPlaying = 0
+                    temp = tempRent.state.whoWon()
+                    break
 
             if tempRent.state.player == 2 and tempRent.state.P2stillPlaying == 1:
                 tempRent.state.P2setVal += nextCard
-            if smartStop(tempRent.state) == 0:
-                #rent.state.P2stillPlaying = 0
-                temp = tempRent.state.whoWon()
-                break
+            if rent.state.player == 2:
+                if smartStop(tempRent.state) == 0:
+                    #rent.state.P2stillPlaying = 0
+                    temp = tempRent.state.whoWon()
+                    break
             #print("simulation iterations", tempRent.state.P1setVal, tempRent.state.P2setVal)
         #print("INFO2:",tempRent.state.P1setVal, tempRent.state.P2setVal, tempRent.state.P1stillPlaying, tempRent.state.P2stillPlaying, temp)
 
@@ -645,7 +647,7 @@ def backpropagation(winner: int, child: RootKids, player: int, multiplier: int) 
 def main():
     pGame: PazaakState = PazaakState(2)
     pGame.P1setVal = 12
-    pGame.P2setVal = 10
+    pGame.P2setVal = 17
     pGame.P1stillPlaying = 1
     pGame.P2sideCards = [[1,1], [2,2], [3, 3]] #only positives get loaded into moves list
     pGame = monte_carlo_algorithm(pGame)
