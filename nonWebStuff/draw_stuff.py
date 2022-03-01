@@ -1,8 +1,10 @@
 '''
 This file is used to Draw out the UI for the Playable versions of the game.
 '''
-import pygame
+
+''' Stuff needed for import '''
 import os
+import pygame
 
 from MCTSnoUCBAIpazaakPygame import *
 from MCTSopAIpazaakPygame import *

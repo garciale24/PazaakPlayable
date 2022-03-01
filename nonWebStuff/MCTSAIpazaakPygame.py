@@ -18,7 +18,7 @@ def quit_game(event: pygame) -> None:
     return None
 
 ''' Function to run Vanilla MCTS AI '''
-def player2_AI(pazaakGame: PazaakState, nextCard: int) -> None:
+def player2_AI(pazaakGame: PazaakState) -> None:
     P2sideCardsTemp = pazaakGame.P2sideCards
     retpazaakGame = monte_carlo_algorithm(pazaakGame)
     if retpazaakGame.P2pop != -1:
@@ -71,7 +71,7 @@ def player1EndTurnStand(pazaakGame: PazaakState, MOUSE_X: int, MOUSE_Y: int, run
 ''' Function to decide what action player2 takes '''
 def player2Actions(pazaakGame: PazaakState, run2: bool) -> bool:
     if pazaakGame.player == 2:
-        pazaakGame = player2_AI(pazaakGame, 0)
+        pazaakGame = player2_AI(pazaakGame)
         run2 = False
     else: run2 = True
     return run2, pazaakGame
