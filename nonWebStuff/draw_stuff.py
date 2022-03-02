@@ -171,12 +171,12 @@ def draw_window(pazaakGame: PazaakState) -> None:
     elif pazaakGame.mctsVersion == "Open Loop":
         img = font.render('Human', True, BLUEISH)
         WIN.blit(img, (int(63* SIZE), int(10* SIZE)))
-        img2 = font.render('Open Loop', True, BLUEISH)
-        WIN.blit(img2, (int(704* SIZE), int(10* SIZE)))
+        img2 = font.render('O.L.', True, BLUEISH)
+        WIN.blit(img2, (int(732* SIZE), int(10* SIZE)))
 
     # This if-statement will give proper names for Human vs Open Loop MCTS 
     elif pazaakGame.mctsVersion == "Open LoopP2":
-        img = font.render('Open Loop', True, BLUEISH)
+        img = font.render('O.L.', True, BLUEISH)
         WIN.blit(img, (int(63* SIZE), int(10* SIZE)))
         img2 = font.render('Human', True, BLUEISH)
         WIN.blit(img2, (int(732* SIZE), int(10* SIZE)))
