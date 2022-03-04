@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PazaakPlayable/static/css/main.3e5d3c3b.chunk.css",
-    "main.js": "/PazaakPlayable/static/js/main.5e06c948.chunk.js",
-    "main.js.map": "/PazaakPlayable/static/js/main.5e06c948.chunk.js.map",
+    "main.js": "/PazaakPlayable/static/js/main.e8b34c17.chunk.js",
+    "main.js.map": "/PazaakPlayable/static/js/main.e8b34c17.chunk.js.map",
     "runtime-main.js": "/PazaakPlayable/static/js/runtime-main.48eb4c41.js",
     "runtime-main.js.map": "/PazaakPlayable/static/js/runtime-main.48eb4c41.js.map",
     "static/js/2.8833cd6e.chunk.js": "/PazaakPlayable/static/js/2.8833cd6e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.48eb4c41.js",
     "static/js/2.8833cd6e.chunk.js",
     "static/css/main.3e5d3c3b.chunk.css",
-    "static/js/main.5e06c948.chunk.js"
+    "static/js/main.e8b34c17.chunk.js"
   ]
 }
