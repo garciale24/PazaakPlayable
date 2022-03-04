@@ -10,8 +10,6 @@ from my_pazaak import *
 from monteCarloOpenLoop import *
 from draw_stuff import *
 
-
-
 ''' Function to quit the game '''
 def quit_game(event: pygame) -> None:
     if event.type == pygame.QUIT:
@@ -215,7 +213,7 @@ def main() -> None:
     pazaakGame.mctsVersion = "Open Loop"
     draw_window(pazaakGame)
     while (pazaakGame.P1gamesWon < 3) and (pazaakGame.P2gamesWon < 3):
-        
+
         # function to play 1 game of pazaak
         rounds_checker, rounds_flag, playerTurn, pazaakGame = play1game(pazaakGame, playerTurn, rounds_checker, rounds_flag)
         wait_timer(1)

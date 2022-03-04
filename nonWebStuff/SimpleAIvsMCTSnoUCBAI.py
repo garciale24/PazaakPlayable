@@ -339,7 +339,7 @@ def main() -> None:
     gamesIdx: int = 0
     gamesAmt: int = 1000
     start_time = time.perf_counter ()
-    print(start_time, "st")
+    #print(start_time, "st")
 
     while gamesIdx < gamesAmt:
         playerTurn: int = 2
@@ -358,20 +358,14 @@ def main() -> None:
         if pazaakGame.whoWon() == 1:
             p1Wins += 1
             p = str(p1Wins) + " " + str(p2Wins)
-            print(p)
+            #print(p)
         if pazaakGame.whoWon() == 2:
             p2Wins += 1
             p = str(p1Wins) + " " + str(p2Wins)
-            print(p)
+            #print(p)
         gamesIdx += 1
     end_time = time.perf_counter ()
-    print(end_time - start_time, "seconds")
-    #pazaakGame.P1setVal = 12
-    #pazaakGame.P2setVal = 12
-    #pazaakGame.P1stillPlaying = 0
-    #pazaakGame.P2stillPlaying = 0
-    #print(pazaakGame.whoWon())
-
+    print(end_time - start_time, "Total Time(seconds)")
     print("P1Wins:", p1Wins, "P2Wins:", p2Wins)
 
     return None
