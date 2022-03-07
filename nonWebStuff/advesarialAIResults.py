@@ -53,7 +53,7 @@ LISTOFINFO: List[Tuple[str, ModuleType]] = [
 def main():
     i: int = 0
     original_stdout = sys.stdout
-    fileOut = open('advesarialAIResults.txt', 'w')
+    fileOut = open('advesarialAIResults1.txt', 'w')
 
     for info in LISTOFINFO:
         print("\nStarting " + info[0], end= "")
