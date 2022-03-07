@@ -21,6 +21,7 @@ code {
 iframe{
    display:block;
    margin: auto;
-   width: 763px; /* It should not be 100% */ 
+   width: 1100px; /* It should not be 100% */ 
    max-height:none!important
 }
+

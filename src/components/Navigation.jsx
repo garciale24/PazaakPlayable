@@ -42,6 +42,12 @@ function Navigation() {
                 </NavLink>
               </li>
 
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/AdAI">
+                  adAI
+                </NavLink>
+              </li>
+
             </ul>
           </div>
         </div>

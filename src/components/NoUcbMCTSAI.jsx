@@ -18,7 +18,8 @@ function NoUcbMCTSAI() {
             <h1 class="font-weight-light">Play as Player 2</h1>
             <p>
 
-            <iframe title="noUCBMCTSAIp2" src="https://trinket.io/embed/pygame/ce7f03f1ed?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+            <iframe title="noUCBMCTSp2" src="https://trinket.io/embed/pygame/ce7f03f1ed?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
             </p>

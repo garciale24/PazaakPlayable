@@ -5,4 +5,5 @@ export { default as SimpleAI } from "./SimpleAI";
 export { default as MCTSAI } from "./MCTSAI";
 export { default as NoUcbMCTSAI } from "./NoUcbMCTSAI";
 export { default as OpenLoopMCTSAI } from "./OpenLoopMCTSAI";
+export { default as AdAI } from "./AdAI";
 

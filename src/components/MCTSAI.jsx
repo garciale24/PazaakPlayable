@@ -16,8 +16,8 @@ function MCTSAI() {
             <h1 class="font-weight-light">MCTS AI</h1>
             <p>
             
-
             <iframe title="MCTSAIp1" src="https://trinket.io/embed/pygame/34e31adc7a?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
             </p>
             <br></br><br></br>
 

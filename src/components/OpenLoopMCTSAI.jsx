@@ -18,6 +18,7 @@ function OpenLoopMCTSAI() {
             <h1 class="font-weight-light">Play as Player 2</h1>
             <p>
 
+
             <iframe title="OpenLoopMCTSAIp2" src="https://trinket.io/embed/pygame/146ae73c62?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
             </p>

@@ -11,7 +11,8 @@ import {
   SimpleAI,
   MCTSAI, 
   NoUcbMCTSAI,
-  OpenLoopMCTSAI
+  OpenLoopMCTSAI,
+  AdAI
 } from "./components";
 
 
@@ -24,6 +25,8 @@ ReactDOM.render(
       <Route path="/mctsAI" element={<MCTSAI />} />
       <Route path="/noUcbMCTSAI" element={<NoUcbMCTSAI />} />
       <Route path="/openLoopMCTSAI" element={<OpenLoopMCTSAI />} />
+      <Route path="/adAI" element={<AdAI />} />
+
 
     </Routes>
     <Footer />
