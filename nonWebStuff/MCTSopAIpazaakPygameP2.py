@@ -220,10 +220,10 @@ def main() -> None:
     draw_window(pazaakGame)
 
     if pazaakGame.P1gamesWon == 3:
-        draw_winner(1)
+        draw_winner(1, pazaakGame)
         wait_timer(5)
     elif pazaakGame.P2gamesWon == 3:
-        draw_winner(2)
+        draw_winner(2, pazaakGame)
         wait_timer(5)
 
     pygame.quit()

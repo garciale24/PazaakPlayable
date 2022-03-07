@@ -103,27 +103,45 @@ def draw_winner(player, pazaakGame):
 
     # This if-statement will give proper names for Vanilla MCTS vs Human 
     if pazaakGame.mctsVersion == "Vanilla":
-        text = font.render("Human" + " player" + " Wins", True, RED)
+        if player == 1:
+            text = font.render("Human" + " player" + " Wins", True, RED)
+        else:
+            text = font.render("MCTS" + " player" + " Wins", True, RED)
 
     # This if-statement will give proper names for Vanilla MCTS vs Human 
     elif pazaakGame.mctsVersion == "VanillaP2":
-        text = font.render("MCTS" + " player" + " Wins", True, RED)
+        if player == 1:
+            text = font.render("MCTS" + " player" + " Wins", True, RED)
+        else:
+            text = font.render("Human" + " player" + " Wins", True, RED)
 
     # This if-statement will give proper names for no UCB MCTS vs Human 
     elif pazaakGame.mctsVersion == "no UCB":
-        text = font.render("Human" + " player" + " Wins", True, RED)
+        if player == 1:
+            text = font.render("Human" + " player" + " Wins", True, RED)
+        else:
+            text = font.render("No UCB" + " player" + " Wins", True, RED)
 
     # This if-statement will give proper names for Human vs no UCB MCTS 
     elif pazaakGame.mctsVersion == "no UCBP2":
-        text = font.render("No UCB" + " player" + " Wins", True, RED)
+        if player == 1:
+            text = font.render("No UCB" + " player" + " Wins", True, RED)
+        else:
+            text = font.render("Human" + " player" + " Wins", True, RED)
 
     # This if-statement will give proper names for Open Loop MCTS vs Human 
     elif pazaakGame.mctsVersion == "Open Loop":
-        text = font.render("Human" + " player" + " Wins", True, RED)
+        if player == 1:
+            text = font.render("Human" + " player" + " Wins", True, RED)
+        else:
+            text = font.render("O.L." + " player" + " Wins", True, RED)
 
     # This if-statement will give proper names for Human vs Open Loop MCTS 
     elif pazaakGame.mctsVersion == "Open LoopP2":
-        text = font.render("O.L." + " player" + " Wins", True, RED)
+        if player == 1:
+            text = font.render("O.L." + " player" + " Wins", True, RED)
+        else:
+            text = font.render("Human" + " player" + " Wins", True, RED)
 
     # This if-statement will give proper names for Simple AI vs Human 
     elif pazaakGame.mctsVersion == "Simple":
