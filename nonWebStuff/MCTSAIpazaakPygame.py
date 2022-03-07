@@ -10,6 +10,7 @@ from my_pazaak import *
 from monteCarlo import *
 from draw_stuff import *
 
+
 ''' Function to quit the game '''
 def quit_game(event: pygame) -> None:
     if event.type == pygame.QUIT:
@@ -22,6 +23,7 @@ def player2_AI(pazaakGame: PazaakState) -> None:
     P2sideCardsTemp = pazaakGame.P2sideCards
     retpazaakGame = monte_carlo_algorithm(pazaakGame)
     if retpazaakGame.P2pop != -1:
+
         wait_timer(1)
         SIDE_DECK_DIS2.pop(retpazaakGame.P2pop)
         retpazaakGame.P2boardCards.append(P2sideCardsTemp[retpazaakGame.P2pop][0])
@@ -49,6 +51,7 @@ def player1SideCardSelection(selected_side_card: bool, pazaakGame: PazaakState, 
                     card = pazaakGame.P1sideCards.pop(i)
                     pazaakGame.P1boardCards.append(card[0])
                     pazaakGame.P1setVal += card[0]
+
                     draw_window(pazaakGame)
                     selected_side_card = False
                     if pazaakGame.P1setVal >= 20: 
@@ -70,6 +73,7 @@ def player1EndTurnStand(pazaakGame: PazaakState, MOUSE_X: int, MOUSE_Y: int, run
 
 ''' Function to decide what action player2 takes '''
 def player2Actions(pazaakGame: PazaakState, run2: bool) -> bool:
+    #pygame.mixer.music.play()
     if pazaakGame.player == 2:
         pazaakGame = player2_AI(pazaakGame)
         run2 = False
@@ -149,6 +153,7 @@ def addBoardCard(pazaakGame: PazaakState, nextCard: int) -> None:
 
 ''' Function to play 1 game of pazaak '''
 def play1game(pazaakGame: PazaakState, k: int, rounds_checker: int, rounds_flag: int) -> Tuple[int, int, int]:
+    #pygame.mixer.music.play()
     run2: bool = True
     run: bool = True
     breaky: bool = False
@@ -198,10 +203,10 @@ def main() -> None:
     draw_window(pazaakGame)
 
     if pazaakGame.P1gamesWon == 3:
-        draw_winner(1)
+        draw_winner(1, pazaakGame)
         wait_timer(5)
     elif pazaakGame.P2gamesWon == 3:
-        draw_winner(2)
+        draw_winner(2, pazaakGame)
         wait_timer(5)
 
     # Game is over

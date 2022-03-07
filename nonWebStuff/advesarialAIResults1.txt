@@ -1,0 +1,64 @@
+SimpleAI vs Simple AI:
+1.5355297469941434 Total Time(seconds)
+P1Wins: 4794 P2Wins: 5206
+
+SimpleAI vs MCTSAI:
+336.0906942350048 Total Time(seconds)
+P1Wins: 309 P2Wins: 691
+
+SimpleAI vs no UCB MCTSAI:
+417.39270032900095 Total Time(seconds)
+P1Wins: 318 P2Wins: 682
+
+SimpleAI vs Open Loop MCTSAI:
+278.33411756999703 Total Time(seconds)
+P1Wins: 310 P2Wins: 690
+
+MCTSAI vs MCTSAI
+906.6697061559971 Total Time(seconds)
+P1Wins: 583 P2Wins: 417
+
+MCTSAI vs no UCB MCTSAI
+973.2569417970008 End Time(seconds)
+P1Wins: 615 P2Wins: 385
+
+MCTSAI vs Open Loop MCTSAI
+879.213680107001 Total Time(seconds)
+P1Wins: 520 P2Wins: 480
+
+MCTSAI vs SimpleAI
+498.79955509599677 Total Time(seconds)
+P1Wins: 726 P2Wins: 274
+
+no UCB MCTSAI vs MCTSAI
+805.5732785620057 Total Time(seconds)
+P1Wins: 519 P2Wins: 481
+
+no UCB MCTSAI vs no UCB MCTSAI
+908.4168765790018 Total Time(seconds)
+P1Wins: 528 P2Wins: 472
+
+no UCB MCTSAI vs Open Loop MCTSAI
+772.5856715619957 Total Time(seconds)
+P1Wins: 478 P2Wins: 522
+
+no UCB MCTSAI vs SimpleAI
+411.13438690500334 Total Time(seconds)
+P1Wins: 726 P2Wins: 274
+
+Open Loop MCTSAI vs MCTSAI
+678.5101037490022 Total Time(seconds)
+P1Wins: 469 P2Wins: 531
+
+Open Loop MCTSAI vs no UCB MCTSAI
+747.0576954200005 Total Time(seconds)
+P1Wins: 539 P2Wins: 461
+
+Open Loop MCTSAI vs Open Loop MCTSAI
+617.4624174120036 Total Time(seconds)
+P1Wins: 496 P2Wins: 504
+
+Open Loop MCTSAI vs SimpleAI
+266.6308141289992 Total Time(seconds)
+P1Wins: 857 P2Wins: 143
+

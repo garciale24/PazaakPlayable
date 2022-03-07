@@ -104,9 +104,45 @@ SIDE_DECK_DIS2: List[List[int]] = [
     [int(802* SIZE), int(367* SIZE)]]
 
 ''' At the end of the game, draw the name of the Winner '''
-def draw_winner(player: int) -> None:
+def draw_winner(player: int, pazaakGame: PazaakState) -> None:
     font = pygame.font.Font(None, int(128* SIZE))
     text = font.render("Player" + str(player) + " Wins", True, RED)
+
+    # This if-statement will give proper names for Vanilla MCTS vs Human 
+    if pazaakGame.mctsVersion == "Vanilla":
+        text = font.render("Human" + " player" + " Wins", True, RED)
+
+    # This if-statement will give proper names for Vanilla MCTS vs Human 
+    elif pazaakGame.mctsVersion == "VanillaP2":
+        text = font.render("MCTS" + " player" + " Wins", True, RED)
+
+    # This if-statement will give proper names for no UCB MCTS vs Human 
+    elif pazaakGame.mctsVersion == "no UCB":
+        text = font.render("Human" + " player" + " Wins", True, RED)
+
+    # This if-statement will give proper names for Human vs no UCB MCTS 
+    elif pazaakGame.mctsVersion == "no UCBP2":
+        text = font.render("No UCB" + " player" + " Wins", True, RED)
+
+    # This if-statement will give proper names for Open Loop MCTS vs Human 
+    elif pazaakGame.mctsVersion == "Open Loop":
+        text = font.render("Human" + " player" + " Wins", True, RED)
+
+    # This if-statement will give proper names for Human vs Open Loop MCTS 
+    elif pazaakGame.mctsVersion == "Open LoopP2":
+        text = font.render("O.L." + " player" + " Wins", True, RED)
+
+    # This if-statement will give proper names for Simple AI vs Human 
+    elif pazaakGame.mctsVersion == "Simple":
+        text = font.render("Human" + " player" + " Wins", True, RED)
+
+    # This else-statement will give default names of 'Player 1' and 'Player 2'
+    else:
+        img = font.render('Player 1', True, BLUEISH)
+        WIN.blit(img, (int(63* SIZE), int(10* SIZE)))
+        img2 = font.render('Player 2', True, BLUEISH)
+        WIN.blit(img2, (int(732* SIZE), int(10* SIZE)))
+
     text_rect = text.get_rect(center=(int(450* SIZE), int(100* SIZE)))
     WIN.blit(text, text_rect)
     pygame.display.update()

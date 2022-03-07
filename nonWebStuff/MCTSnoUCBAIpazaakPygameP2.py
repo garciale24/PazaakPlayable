@@ -71,7 +71,7 @@ def player2EndTurnStand(pazaakGame: PazaakState, MOUSE_X: int, MOUSE_Y: int, run
 ''' Function to decide what action player2 takes '''
 def player1Actions(pazaakGame: PazaakState, run2: bool) -> bool:
     if pazaakGame.player == 1:
-        pazaakGame = player1_AI(pazaakGame, 0)
+        pazaakGame = player1_AI(pazaakGame)
         run2 = False
     else: run2 = True
     return run2, pazaakGame

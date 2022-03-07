@@ -22,6 +22,7 @@ def player1_AI(pazaakGame: PazaakState) -> None:
     P1sideCardsTemp = pazaakGame.P1sideCards
     retpazaakGame = monte_carlo_algorithm(pazaakGame)
     if retpazaakGame.P1pop != -1:
+
         wait_timer(1)
         SIDE_DECK_DIS.pop(retpazaakGame.P1pop)
         retpazaakGame.P1boardCards.append(P1sideCardsTemp[retpazaakGame.P1pop][0])
@@ -51,6 +52,7 @@ def player2SideCardSelection(selected_side_card: bool, pazaakGame: PazaakState, 
                     card = pazaakGame.P2sideCards.pop(i)
                     pazaakGame.P2boardCards.append(card[0])
                     pazaakGame.P2setVal += card[0]
+
                     draw_window(pazaakGame)
                     selected_side_card = False
                     if pazaakGame.P2setVal >= 20: 
@@ -75,6 +77,7 @@ def player2EndTurnStand(pazaakGame: PazaakState, MOUSE_X: int, MOUSE_Y: int, run
 ''' Function to decide what action player2 takes '''
 def player1Actions(pazaakGame: PazaakState, run2: bool) -> bool:
     if pazaakGame.player == 1:
+
         pazaakGame = player1_AI(pazaakGame)
         run2 = False
     else: run2 = True
@@ -82,6 +85,7 @@ def player1Actions(pazaakGame: PazaakState, run2: bool) -> bool:
 
 ''' Function call that checks what action player1 wants to take '''
 def player2Actions(pazaakGame: PazaakState, run2: bool) -> bool:
+
     selected_side_card: bool = True
     while run2:     
         for event in pygame.event.get():
@@ -202,10 +206,10 @@ def main() -> None:
     draw_window(pazaakGame)
 
     if pazaakGame.P1gamesWon == 3:
-        draw_winner(1)
+        draw_winner(1, pazaakGame)
         wait_timer(5)
     elif pazaakGame.P2gamesWon == 3:
-        draw_winner(2)
+        draw_winner(2, pazaakGame)
         wait_timer(5)
 
     # Game is over
