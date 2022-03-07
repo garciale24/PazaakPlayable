@@ -1,5 +1,5 @@
 Battle, Time, Player 1 Wins, Player 2 Wins
-SimpleAI vs Simple AI, 1.5355297469941434,  4794,  5206
+SimpleAI vs Simple AI, 1.5355297469941434,  479,  520
 SimpleAI vs MCTSAI, 336.0906942350048,  309,  691
 SimpleAI vs no UCB MCTSAI, 417.39270032900095,  318,  682
 SimpleAI vs Open Loop MCTSAI, 278.33411756999703,  310,  690

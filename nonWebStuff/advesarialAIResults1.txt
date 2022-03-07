@@ -1,6 +1,6 @@
 SimpleAI vs Simple AI:
 1.5355297469941434 Total Time(seconds)
-P1Wins: 4794 P2Wins: 5206
+P1Wins: 479 P2Wins: 520
 
 SimpleAI vs MCTSAI:
 336.0906942350048 Total Time(seconds)

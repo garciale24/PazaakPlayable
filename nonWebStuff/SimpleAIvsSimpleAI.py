@@ -220,7 +220,7 @@ def main() -> None:
     p1Wins: int = 0
     p2Wins: int = 0
     gamesIdx: int = 0
-    gamesAmt: int = 10000
+    gamesAmt: int = 1000
     start_time = time.perf_counter ()
     while gamesIdx < gamesAmt:
         playerTurn: int = 2
