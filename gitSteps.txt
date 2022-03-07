@@ -1,6 +1,0 @@
-git init
-git remote add origin https://garciale24:<TOKEN>@github.com/garciale24/PazaakPlayable.git 
-
-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
-
-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
