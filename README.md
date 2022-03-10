@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Monte Carlo Tree Search for Pazaak; a Star Wars Card Game
+## Acknowledgements 
+**Author:** Carlos García-Lemus
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Advisor:** Dr. Canaan
 
-## Available Scripts
+**Course:** CSC 491 Senior Project II
 
-In the project directory, you can run:
+**Affiliation:** California Polytechnic University, San Luis Obispo Computer Science Department
 
-### `npm start`
+**Completion Date:** TBD 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instructions for this project
+**Requirements:**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**How to run this project:**
 
-### `npm test`
+## Futher Acknowledgements
+**Cameron Browne- MTCS slides**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Browne, Cameron. “Monte Carlo Tree Search - Goldsmiths, University of London.” Http://Ccg.doc.gold.ac.uk, Mar. 2012, http://ccg.doc.gold.ac.uk/ccg_old/teaching/ludic_computing/ludic16.pdf.
 
-### `npm run build`
+**MCTS Wikipedia**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+“Monte Carlo Tree Search.” Wikipedia, Wikimedia Foundation, 23 Jan. 2022, https://en.wikipedia.org/wiki/Monte_Carlo_tree_search.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Pazaak Wookieepedia**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+“Pazaak/Legends.” Wookieepedia, starwars.fandom.com. Accessed 7 Feb. 2022, https://starwars.fandom.com/wiki/Pazaak/Legends 
 
-### `npm run eject`
+**Star Wars logo**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+https://www.stickpng.com/img/icons-logos-emojis/iconic-brands/star-wars-black-and-yellow-logo 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**MCTS image; GeeksforGeeks**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+https://www.geeksforgeeks.org/ml-monte-carlo-tree-search-mcts/ 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Typed Python**
 
-## Learn More
+https://towardsdatascience.com/how-to-make-python-statically-typed-the-essential-guide-e087cf4fa400
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://docs.python.org/3/library/typing.html 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Pygame**
 
-### Code Splitting
+https://www.pygame.org/wiki/about
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**React**
 
-### Analyzing the Bundle Size
+https://en.wikipedia.org/wiki/React_(JavaScript_library) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Trinket**
 
-### Making a Progressive Web App
+https://trinket.io/ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**UCB**
 
-### Advanced Configuration
+https://towardsdatascience.com/monte-carlo-tree-search-in-reinforcement-learning-b97d3e743d0f 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Other MCTS Python implementations**
 
-### Deployment
+https://github.com/Nimor111/pazaak-python 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Drawio**
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://app.diagrams.net/ 
