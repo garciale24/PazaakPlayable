@@ -1,5 +1,5 @@
 # Monte Carlo Tree Search for Pazaak; a Star Wars Card Game
-## Project website link:
+## Project website link
 https://garciale24.github.io/PazaakPlayable/
 
 ## Acknowledgements 
@@ -18,7 +18,7 @@ https://garciale24.github.io/PazaakPlayable/
 
 **How to run this project:**
 
-## How to play:
+## How to play
 
 ## Futher Acknowledgements
 **Cameron Browne- MTCS slides**
