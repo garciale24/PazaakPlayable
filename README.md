@@ -17,8 +17,8 @@ https://garciale24.github.io/PazaakPlayable/
 **Requirements:**
  
 * Python 3.8.10 (To write the logic for the MCTS implementations)
-* Pygame (For the game vizuals)
-* React JS App version 0.1.0. (To create a website for the AI's)  
+* Pygame version 1.9.6 (For the game vizuals)
+* React JS App version 0.1.0 (To create a website for the AI's)  
 * Trinket (To create your own Pygame implementatioin of MCTS AI for a website)
 
 **How to run this project:**
