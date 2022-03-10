@@ -18,6 +18,8 @@ https://garciale24.github.io/PazaakPlayable/
 
 **How to run this project:**
 
+## How to play:
+
 ## Futher Acknowledgements
 **Cameron Browne- MTCS slides**
 
