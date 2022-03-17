@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PazaakPlayable/static/css/main.9be264c5.chunk.css",
-    "main.js": "/PazaakPlayable/static/js/main.01487669.chunk.js",
-    "main.js.map": "/PazaakPlayable/static/js/main.01487669.chunk.js.map",
+    "main.css": "/PazaakPlayable/static/css/main.6d7d8e09.chunk.css",
+    "main.js": "/PazaakPlayable/static/js/main.130ddefb.chunk.js",
+    "main.js.map": "/PazaakPlayable/static/js/main.130ddefb.chunk.js.map",
     "runtime-main.js": "/PazaakPlayable/static/js/runtime-main.9c182b16.js",
     "runtime-main.js.map": "/PazaakPlayable/static/js/runtime-main.9c182b16.js.map",
     "static/js/2.c3103b46.chunk.js": "/PazaakPlayable/static/js/2.c3103b46.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.a58f5969.chunk.js": "/PazaakPlayable/static/js/3.a58f5969.chunk.js",
     "static/js/3.a58f5969.chunk.js.map": "/PazaakPlayable/static/js/3.a58f5969.chunk.js.map",
     "index.html": "/PazaakPlayable/index.html",
-    "static/css/main.9be264c5.chunk.css.map": "/PazaakPlayable/static/css/main.9be264c5.chunk.css.map",
+    "static/css/main.6d7d8e09.chunk.css.map": "/PazaakPlayable/static/css/main.6d7d8e09.chunk.css.map",
     "static/js/2.c3103b46.chunk.js.LICENSE.txt": "/PazaakPlayable/static/js/2.c3103b46.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9c182b16.js",
     "static/js/2.c3103b46.chunk.js",
-    "static/css/main.9be264c5.chunk.css",
-    "static/js/main.01487669.chunk.js"
+    "static/css/main.6d7d8e09.chunk.css",
+    "static/js/main.130ddefb.chunk.js"
   ]
 }
