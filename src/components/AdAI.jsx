@@ -3,6 +3,19 @@ import React from "react";
 function AdAI() {
   return (
     <div className="AdAI">
+
+      <div class="container">
+        <div class="row align-items-center my-4">
+          <div class="col-lg-0">
+
+          </div>
+          <div class="col-lg-0">
+            <h1 class="font-weight-heavy">AI Games Played</h1>
+            
+          </div>
+        </div>
+      </div>
+          
     <br></br>
     <iframe title="Tab1" width="1000" height="1000px" src="https://public.tableau.com/views/Book2_16466462420050/Sheet1?:embed=y&:display_count=yes&:showVizHome=no">
     </iframe>

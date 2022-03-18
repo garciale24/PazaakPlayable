@@ -12,7 +12,8 @@ import {
   MCTSAI, 
   NoUcbMCTSAI,
   OpenLoopMCTSAI,
-  AdAI
+  AdAI,
+  HowToPlay
 } from "./components";
 
 
@@ -26,16 +27,22 @@ ReactDOM.render(
       <Route path="/noUcbMCTSAI" element={<NoUcbMCTSAI />} />
       <Route path="/openLoopMCTSAI" element={<OpenLoopMCTSAI />} />
       <Route path="/adAI" element={<AdAI />} />
+      <Route path="/howToPlay" element={<HowToPlay />} />
 
 
     </Routes>
     <Footer />
 
     <div class="container">
-        <div class="row align-items-center my-5">
+        <div class="row align-items-center my-1">
           <div class="col-lg-0">
           </div>
           <div class="col-lg-0">
+
+          </div>
+          </div>
+          <iframe title="website navigation" src="https://docs.google.com/document/d/e/2PACX-1vQFXfsB_NONT2PEZqgP6Aeln_f5_yhYAsQt5zJXvixUjfNjySmPYiIz5z8HbRXlNXw2V5tD7my8HVdN/pub?embedded=true" scrolling="no" height="3350" seamless="seamless" width="850"frameBorder="0"
+          ></iframe>
 
           <strong><span style={{color: "#4c7ddd"}}>Author: </span></strong>
           <span> Carlos García-Lemus </span>
@@ -51,10 +58,9 @@ ReactDOM.render(
               Computer Science Department </span>
           <br />
           <strong><span style={{color: "#4c7ddd"}}>Completion Date: </span></strong>
-          <span> TBD </span>
-          </div>
+          <span> 03/18/2022 </span>
+          <br/><br/><br/><br/><br/>
         </div>
-      </div>
     
   </Router>,
 

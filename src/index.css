@@ -18,10 +18,17 @@ code {
   text-align: center;
 }
 
+iframe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
 iframe{
    display:block;
    margin: auto;
-   width: 1100px; /* It should not be 100% */ 
+   width: 1100px;  It should not be 100% 
    max-height:none!important
 }
-
+*/

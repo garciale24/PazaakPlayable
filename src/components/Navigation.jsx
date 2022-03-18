@@ -18,6 +18,14 @@ function Navigation() {
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
+
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/howToPlay">
+                  HowToPlay
+                  <span className="sr-only">(current)</span>
+                </NavLink>
+              </li>
+
               <li className="nav-item">
                 <NavLink className="nav-link" to="/simpleAI">
                   SimpleAI
@@ -38,13 +46,13 @@ function Navigation() {
 
               <li className="nav-item">
                 <NavLink className="nav-link" to="/openLoopMCTSAI">
-                  OpenLoopMCTSAI
+                  NoExpansionMCTSAI
                 </NavLink>
               </li>
 
               <li className="nav-item">
                 <NavLink className="nav-link" to="/AdAI">
-                  adAI
+                  AdvesarialResults
                 </NavLink>
               </li>
 

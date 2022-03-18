@@ -8,32 +8,36 @@ function MCTSAI() {
 
           
       <div class="container">
-        <div class="row align-items-center my-5">
+        <div class="row align-items-center my-4">
           <div class="col-lg-0">
 
           </div>
           <div class="col-lg-0">
-            <h1 class="font-weight-light">MCTS AI</h1>
-            <p>
+            <h1 class="font-weight-heavy">MCTS AI</h1>
             
-            <iframe title="MCTSAIp1" src="https://trinket.io/embed/pygame/34e31adc7a?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-            </p>
-            <br></br><br></br>
-
-            <h1 class="font-weight-light">Play as Player 2</h1>
-            <p>
-
-            <iframe title="MCTSAIp2" src="https://trinket.io/embed/pygame/ae598aebf0?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-
-
-            </p>
           </div>
-        </div>
+          </div>
+
+        <iframe title="MCTSAIp1" src="https://trinket.io/embed/pygame/34e31adc7a?outputOnly=true" width="1000" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        <div class="row align-items-center my-4">
+          <div class="col-lg-0">
+
+          </div>
+          <div class="col-lg-0">
+          <h1 class="font-weight-heavy">Play as Player 2</h1>
+          </div>
+          </div>
+        <iframe title="MCTSAIp2" src="https://trinket.io/embed/pygame/ae598aebf0?outputOnly=true" width="1000" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
       </div>
     </div>
   );
 }
 
 export default MCTSAI;
+
+/*
+<h1 class="font-weight-light">Play as Player 2</h1>
+<p>
+
+<iframe title="MCTSAIp2" src="https://trinket.io/embed/pygame/ae598aebf0?outputOnly=true" width="1000" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+*/
