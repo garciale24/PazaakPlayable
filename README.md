@@ -11,7 +11,7 @@ https://garciale24.github.io/PazaakPlayable/
 
 **Affiliation:** California Polytechnic University, San Luis Obispo Computer Science Department
 
-**Completion Date:** TBD 
+**Completion Date:** 03/18/2022 
 
 ## Instructions for this project
 **Requirements:**
@@ -23,7 +23,11 @@ https://garciale24.github.io/PazaakPlayable/
 
 **How to run this project:**
 
-## How to play
+This project can be run using the website link provided above. There are instructions there for navigating the website as well as instructions for how to play against any of the MCTS agents in this project.
+
+**How to play:**
+
+Pazaak is played with two players, Player 1 and Player 2. These two players will play a ‘best-of-five’ (first to win three sets wins the game) series. Each set within the game will consist of both players attempting to reach as close to 20 (or 20 itself) without going over 20 (21 and over). The first set will begin with Player 1 receiving a card from a randomly generated infinite deck, this card will have a value of 1-10. After receiving the card from the deck, Player 1 may choose to select 1 ‘side card’ from their side deck in order to either add to their set value total or to reduce their set value total and then they will have the option to 'stand'. After Player 1 finishes their turn, Player 2 will have the same thing happen to them; receive a card from the deck, they will get a chance to play 1 ‘side card’ if there are any available, and finally they will have the option to 'stand'. Player 1 and Player 2 will continue alternating turns like this until both players are done playing at which point a winner will be calculated (or if a tie occurs, no wins are allotted and both players begin a new set). At the beginning of each new set, Player 1 and Player 2 will switch their ordering on who goes first. A player can choose to stop playing or ‘stand’ at the end of their turn which will allow them to stick with their current set value total and will make it so that said player will no longer receive cards from the deck (and it will also make it so that said player will no longer be able to play any ‘side cards’) until the current set is over. For example, suppose Player 1 has a set value of 14 and Player 2 has a set value of 17. Now let’s say that Player 1 gets a ‘+5’ card from the deck, thus putting their total set value up to 19 (14 + 5 = 19). In this instance, it would be smart for Player 1 to ‘stand’ and thus sticking with that 19 value for the rest of the set which would allow for a good chance of victory (Player 2 would need to get a perfect set value of 20 to win or a set value of 19 to tie Player 1). Now let’s suppose that from the previous example that Player 1 had a ‘+1’ ‘side card’. In that scenario, Player 1 could’ve played that ‘+1’ ‘side card’ at the end of their turn thus bringing their set value total up to 20 (14 + 5 + 1 = 20). This set value would be even better than 19 seeing as Player 2 will no longer be able to win (only tie) thus increasing the chances for victory even more. Here is a link to a Google Doc which has more examples: https://docs.google.com/document/d/1SgyQcBeaWXy5FqP7iBZUUl8MWtADo1wraGp5-ovZCGs/edit?usp=sharing
 
 ## Futher Acknowledgements
 
