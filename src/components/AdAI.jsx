@@ -11,12 +11,13 @@ function AdAI() {
           </div>
           <div class="col-lg-0">
             <h1 class="font-weight-heavy">AI Games Played</h1>
-            
+
+            <span> NOTE: 'Open Loop MCTS AI' is actually 'No Expansion MCTS AI' for the following visuals: </span>
+
           </div>
         </div>
       </div>
-          
-    <br></br>
+
     <iframe title="Tab1" width="1000" height="1000px" src="https://public.tableau.com/views/Book2_16466462420050/Sheet1?:embed=y&:display_count=yes&:showVizHome=no">
     </iframe>
     <br></br>

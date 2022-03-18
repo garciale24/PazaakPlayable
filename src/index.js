@@ -43,6 +43,7 @@ ReactDOM.render(
           </div>
           <iframe title="website navigation" src="https://docs.google.com/document/d/e/2PACX-1vQFXfsB_NONT2PEZqgP6Aeln_f5_yhYAsQt5zJXvixUjfNjySmPYiIz5z8HbRXlNXw2V5tD7my8HVdN/pub?embedded=true" scrolling="no" height="3350" seamless="seamless" width="850"frameBorder="0"
           ></iframe>
+          <br/><br/><br/>
 
           <strong><span style={{color: "#4c7ddd"}}>Author: </span></strong>
           <span> Carlos García-Lemus </span>
@@ -51,7 +52,7 @@ ReactDOM.render(
           <span> Dr. Canaan </span>
           <br />
           <strong><span style={{color: "#4c7ddd"}}>Course: </span></strong>
-          <span> CSC 491 Senior Project II </span>
+          <span> CSC 491/492 Senior Project I & II </span>
           <br />
           <strong><span style={{color: "#4c7ddd"}}>Affiliation: </span></strong>
           <span> California Polytechnic University, San Luis Obispo
@@ -60,6 +61,7 @@ ReactDOM.render(
           <strong><span style={{color: "#4c7ddd"}}>Completion Date: </span></strong>
           <span> 03/18/2022 </span>
           <br/><br/><br/><br/><br/>
+
         </div>
     
   </Router>,
