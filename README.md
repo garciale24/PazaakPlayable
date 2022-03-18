@@ -23,7 +23,7 @@ https://garciale24.github.io/PazaakPlayable/
 
 **How to run this project:**
 
-This project can be run using the website link provided above. There are instructions there for navigating the website as well as instructions for how to play against any of the MCTS agents in this project.
+NOTE: The most recent code is within the 'cleanUp' branch of this repository. This project can be run using the website link provided above. There are instructions there for navigating the website as well as instructions for how to play against any of the MCTS agents in this project.
 
 **How to play:**
 
