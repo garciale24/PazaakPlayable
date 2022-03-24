@@ -1,3 +1,5 @@
+## NOTE: Must switch over to **'cleanUp'** branch in order to see comepleted project code.
+
 # Monte Carlo Tree Search for Pazaak; a Star Wars Card Game
 ## Project website link
 https://garciale24.github.io/PazaakPlayable/
